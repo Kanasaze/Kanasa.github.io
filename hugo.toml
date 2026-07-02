@@ -1,0 +1,16 @@
+baseURL = "https://your-username.github.io/"
+locale = 'zh-cn'
+languageCode = "zh-cn"
+title = "Kanasa Blog"
+theme = "PaperMod"
+
+[params]
+  author = "Kanasa"
+  description = "This is my Blog"
+
+[menu]
+  [[menu.main]]
+    identifier = "blog"
+    name = "博客"
+    url = "/blog/"
+    weight = 2
